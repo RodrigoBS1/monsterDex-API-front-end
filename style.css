@@ -1,0 +1,22 @@
+header {
+    background-color: yellow;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
