@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 109);
+}
+
 header {
     background-color: yellow;
     display: flex;
@@ -8,15 +14,29 @@ header {
     color: blue;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
+h2, .search-container {
+   align-items: center;
+   text-align: center;
+   align-content: center;
+   color: white;
+}
 
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#add {
+    margin: 10px;
+}
+
+.digimonCard {
+    background-color: yellow;
     
+}
+.digimonChoice {
+    background-color: blue;
+}
+
+.main-container, .digimonCard, .digimonHistory, .card, .digimonChoice  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
 }

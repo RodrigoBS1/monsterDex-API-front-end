@@ -16,33 +16,25 @@
             Welcome to MonsterDEX! Your inventory of Digimon
         </h1>
     </header>
+<main>
     <section class="main-container">
-        <form>
-            <div id="getDigimon">
-                <input type="text" placeholder="Search Digimon">
-                <input type="submit">
-            </div>
-        </form>
-        <br>
-        <div class="card-container">
-            <div class="card" style="width: 18rem;">
-                <img src="https://wikimon.net/images/7/72/Agumon.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Digimon Name</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section class="search-container">
+                <h2>Pick your Digimon</h2>
+                <button id="searchDigimon" class="btn btn-primary">Pick here</button>
+        </section>
     
+        <section class="digimonCard" id="digimonCard">
+          
+        </section>
+    </section>
+    <section class="digimonHistory">
+        <h2>Here is your Digimons</h2>
+        <button id="clear-history" class="btn btn-primary">Clear</button>
+        <section class="digimonChoice" id="digimonChoice">
+
+        </section>
+    </section>
+</main>
 
 
     <script src="script.js"></script>
